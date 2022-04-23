@@ -1,13 +1,15 @@
+function getTotal (keys) {
+  return keys.reduce((key) => {
+  return keys.length
+}, 0)
+}
+
 function getTotalBooksCount(books) {
-  return books.reduce((book) => {
-    return books.length
-  }, 0)
+return getTotal (books)
 }
 
 function getTotalAccountsCount(accounts) {
-    return accounts.reduce((account) => {
-      return accounts.length
-  }, 0)
+  return getTotal (accounts)
 }
 
 function getBooksBorrowedCount(books) {
