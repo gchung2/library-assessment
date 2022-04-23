@@ -1,3 +1,4 @@
+//added helper function to add total//
 function getTotal (keys) {
   return keys.reduce((key) => {
   return keys.length
